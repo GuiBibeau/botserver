@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const apiai = require('apiai')('26fa5ee6713e48babb0fb42de7ef4632');
 const superagent = require('superagent');
-io.set('transports', ['websocket'])
+// io.set('transports', ['websocket'])
 
 const API_CLIENT_KEY = 'f0debfaa914549b3a490d71a93160669';
 const TECHNOLOGIES_NOT_USED = [/shopify/i, /c.?sharp/i, /visual.?basic/i, /cobol/i, /ruby/i];
