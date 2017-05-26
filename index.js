@@ -6,7 +6,7 @@ const apiai = require('apiai')('26fa5ee6713e48babb0fb42de7ef4632');
 const superagent = require('superagent');
 // io.set('transports', ['websocket'])
 
-const API_CLIENT_KEY = 'f0debfaa914549b3a490d71a93160669';
+const API_CLIENT_KEY = '26fa5ee6713e48babb0fb42de7ef4632';
 const TECHNOLOGIES_NOT_USED = [/shopify/i, /c.?sharp/i, /visual.?basic/i, /cobol/i, /ruby/i];
 const E_COMM_TECH = [/magento/i, /prestashop/i, /word.?press/i, /woo.?commerce/i, /i.?don.?t.?know/i];
 const WEB_APP_TECH = [/angular/i, /angular.?js/i, /react.?js/i, /react/i, /node.?js/i, /node/i, /php/i,
