@@ -140,7 +140,7 @@ io.on('connection', function(socket){
           //}); // end of .forEach
         }); // end of .then
       socket.emit('is typing', {isTyping: false});
-    }, 1500); // end of setTimeout for typing
+    }, 500); // end of setTimeout for typing
   }); // end of socket.on chat message
 }); // end of if socket.on connect
 
